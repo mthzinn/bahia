@@ -26,24 +26,16 @@ nav{
     text-align: center;
     font-weight: bold;
     font-size: 1.4rem;
-    
 }
 
 a{
     text-decoration: none;
     list-style: none;
     color: white;
-   
-    
 }
-#grafico_linha {
-    position: absolute;
-    top: 50%;
-    left: 33%;
-    transform: translate(-50%, -50%);
-  }
 
-  img{
+/*main*/
+img{
     max-width: 550px;
     margin-top: 100px;
     margin-left: 45px;
@@ -61,14 +53,17 @@ a{
     display: flex;
   }
 
+
+
+/*footer*/
+
   footer{
     background-color: brown;
     color: white;
-  
     padding: 1.8rem;
     text-align: center;
     font-weight: bold;
     font-size: 1rem;
   }
 
-  /*  teste */
+  /* sfdhusfdjio */
