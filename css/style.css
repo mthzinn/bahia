@@ -26,7 +26,9 @@ nav{
     text-align: center;
     font-weight: bold;
     font-size: 1.4rem;
-    
+}
+.dois{
+  background-color: black;
 }
 
 a{
@@ -61,10 +63,11 @@ a{
     display: flex;
   }
 
+  
+/*footer*/
   footer{
     background-color: brown;
     color: white;
-  
     padding: 1.8rem;
     text-align: center;
     font-weight: bold;
