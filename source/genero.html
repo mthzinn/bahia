@@ -5,24 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <link rel="shortcut icon" href="./img/bandeira.png" type="image/x-icon">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/raca.css">
-    <title>Gráfico de Pizza</title>
+    <link rel="shortcut icon" href="../assets/img/bandeira.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <title>Gráfico de faixa etária e Sexo</title>
 </head>
 <body>
     <header>
         <nav>
-        <a href="index.html">Página Inicial</a>
-         <a href="escolaridade.html">Escolaridade</a>
-         <a href="raça.html">Raça</a>
-         <a href="genero.html">Gênero</a>
-         <a href="graf4.html">Idade</a>
-         <a href="graf5.html">Setores Ecnonômicos</a>
+            <a href="../index.html">Página Inicial</a>
+            <a href="./escolaridade.html">Escolaridade</a>
+            <a href="./raça.html">Raça</a>
+            <a href="./genero.html">Faixa Etária e Sexo</a>
+            <a href="./setores.html">Setores Ecnonômicos</a>
      </nav>
      </header>
     
-     <h1>Diversidade da faixa etária e Gênero</h1>
+     <h1>Diversidade da faixa etária e Sexo</h1>
      <br>
 
      <canvas id="graf_genero"></canvas>
@@ -30,7 +29,7 @@
        
         Chart.defaults.color = 'black'
         Chart.defaults.font.size = 15
-        Chart.defaults.font.family = 'cursive'
+        Chart.defaults.font.family = 'system-ui'
         Chart.defaults.font.weight = 'bold'
 
         var ctx = document.getElementById('graf_genero').getContext('2d');
