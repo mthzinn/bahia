@@ -14,6 +14,7 @@ h1{
     margin-top: 4rem;
     font-weight: 1500;
     font-size: 2.4rem;
+    color: white;
 }
 
 nav{
@@ -28,7 +29,19 @@ nav{
     font-size: 1.4rem;
 }
 .dois{
-  background-color: black;
+  background-color: darkred;
+  padding: 0.8rem;
+  font-size: 1.2rem;
+}
+
+.mapa{
+  margin-left: 2.81rem;
+  margin-bottom: 5rem;
+}
+
+.video{
+  margin-bottom: 5rem;
+  margin-left: 2.81rem;
 }
 
 a{
@@ -48,7 +61,7 @@ a{
   img{
     max-width: 550px;
     margin-top: 100px;
-    margin-left: 45px;
+    margin-left: 2.81rem;
     margin-bottom: 250px;
   
   }
@@ -61,6 +74,29 @@ a{
 
   .imgtxt{
     display: flex;
+  }
+
+  
+  .mapaevideo{
+    display: flex;
+    
+  }
+
+  .textomapa{
+    margin-left: 37px;
+    margin-top: 25px;
+    font-weight: 600;
+  }
+
+  .mapaevideo2{
+    display: flex;
+  }
+
+  .textovideo{
+    margin-left: 37px;
+    margin-top: 25px;
+    font-weight: 600;
+ 
   }
 
   

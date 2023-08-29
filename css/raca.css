@@ -2,8 +2,9 @@ canvas {
     margin: 0 ;
     padding: 0;
   }
-  .graf_raca{
-    width: 100vw;
+  .graficoPizza{
+    width: 70vw;
+    height: 80vh;
     display: flex;
     flex-direction: row;
     justify-content:center;
@@ -21,7 +22,6 @@ canvas {
   footer{
     background-color: brown;
     color: white;
-  
     padding: 1.8rem;
     text-align: center;
     font-weight: bold;
