@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="shortcut icon" href="../assets/img/bandeira.png" type="image/x-icon">
+    <link rel="stylesheet" href="../assets/css/raca.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <title>Gráfico de Etnia</title>
+</head>
+<body>
+    <header>
+        <nav>
+        <a href="../index.html">Página Inicial</a>
+         <a href="./escolaridade.html">Escolaridade</a>
+         <a href="./raça.html">Raça</a>
+         <a href="./genero.html">Faixa Etária e Gênero</a>
+         <a href="./setores.html">Setores Ecnonômicos</a>
+     </nav>
+     </header>
+    
+
+     <h1 class="h1_raca">Pessoas escravizadas naturais da Bahia</h1>
+     <br>
+     <div class="graf_raca">
+        <canvas id="graficoPizza"></canvas>
+    </div>
+  <script>
+    Chart.defaults.borderColor = 'black'
+    Chart.defaults.color = 'black'
+    Chart.defaults.font.size = 21
+    Chart.defaults.font.family = 'Segoe UI'
+    Chart.defaults.font.weight = 'bold'
+    const porcentagens = [702, 269, 122, 4];
+    const cores = ['Brown', 'Black', 'White', 'yellow'];
+
+    // Criar o gráfico 
+    const ctx = document.getElementById('graficoPizza').getContext('2d');
+    new Chart(ctx, {
+      type: 'pie',
+      data: {
+        labels: ['Parda', 'Preta', 'Branca', 'Amarela'],
+        datasets: [{
+          label: 'Pessoas escravizadas naturais da Bahia', 
+          data: porcentagens,
+          backgroundColor: cores,
+        }],
+    
+      },
+      options: {
+        responsive: true
+      }
+    });
+  </script>
+
+
+
+<h1 class="h1_raca2">Pessoas escravizdas residentes na Bahia</h1>
+     <br>
+     <div class="graf_raca2">
+        <canvas id="graficoPizza2"></canvas>
+    </div>
+    <script>
+    Chart.defaults.borderColor = 'black'
+    Chart.defaults.color = 'black'
+    Chart.defaults.font.size = 21
+    Chart.defaults.font.family = 'Segoe UI'
+    Chart.defaults.font.weight = 'bold'
+    const porcentagens2 = [587, 221, 96, 5];
+    const cores2 = ['Brown', 'Black', 'White', 'yellow'];
+    // Criar o gráfico 
+    const ctx2 = document.getElementById('graficoPizza').getContext('2d');
+    new Chart(ctx2, {
+      type: 'pie',
+      data: {
+        labels: ['Parda', 'Preta', 'Branca', 'Amarela'],
+        datasets: [{
+          label: 'Pessoas escravizadas naturais da Bahia', 
+          data: porcentagens2,
+          backgroundColor: cores2,
+        }],
+        
+      },
+      options: {
+        responsive: true
+      }
+    });
+  </script>
+
+
+<br><br>
+<footer>
+  <p class="foot">Feito pelos estudantes: Brunno Antonio Sousa Dinis Pereira & Matheus Luiz Benatti</p>
+</footer>
+</body>
+</html>
