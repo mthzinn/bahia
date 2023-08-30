@@ -1,81 +1,46 @@
-*{
-    margin: 0;
-}
-
-body{
-    background-color: #001d3d;
-    color: white;
-    font-family: 'Segoe UI';
-    
-}
-
 h1{
-    text-align: center;
-    margin-top: 4rem;
-    font-weight: 1500;
-    font-size: 2.4rem;
+    font-size: 2rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
 }
-
-nav{
-    background-color: #000814;
-    color: white;
+.txt{
+    width: 80vw;
+    height: 80vh;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 2rem;
-    text-align: center;
-    font-weight: bold;
-    font-size: 1.4rem;
+    flex-direction: column;
 }
-
-a{
-    text-decoration: none;
-    list-style: none;
-    color: white;
+.txt2{
+    width: 90vw;
+    height: 97vh;
+    flex-direction: column;
 }
-
-/*main*/
-
- 
-.texto{
-  font-size: 1.3rem;
-  text-align: center;
-  display: auto;
-  padding: 2rem;
-}
-
-img{
-    max-width: 550px;
-    margin-top: 100px;
-    margin-left: 45px;
-    margin-bottom: 250px;
-  
-  }
-
-  .txt{
-    margin-left: 50px;
-    margin-top: 135px;
-    font-weight: 600;
-  }
-
-  .imgtxt{
+.esc{
     display: flex;
-  }
+    flex-direction: column;
+    align-items: center;
+}
+.esc p{
+    color: #fff;
+    margin: 1vw;
+    font-size: 1.2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+}
 
 
+/* table{
+    width: 65vw;
+    border: 1px solid #fff;
+    margin-bottom: 3rem;
+} */
 
+.brunno{
+    width: 20vw;
+    height: 50vh;
+}
 
-/*footer*/
-
-  footer{
-    background-color: #000814;
+.contato{
     color: white;
-    padding: 1.8rem;
-    text-align: center;
-    font-weight: bold;
-    font-size: 1rem;
+    font-family: Comfortaa;
+    border-bottom: #fff 2px dashed;
 
-  }
-
-
-
+}
