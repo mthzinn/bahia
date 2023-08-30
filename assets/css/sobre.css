@@ -3,8 +3,8 @@
 }
 
 body{
-    background-color: #e6816d;
-    color: brown;
+    background-color: #001d3d;
+    color: white;
     font-family: 'Segoe UI';
     
 }
@@ -17,7 +17,7 @@ h1{
 }
 
 nav{
-    background-color: brown;
+    background-color: #000814;
     color: white;
     display: flex;
     flex-direction: row;
@@ -68,7 +68,7 @@ img{
 /*footer*/
 
   footer{
-    background-color: brown;
+    background-color: #000814;
     color: white;
     padding: 1.8rem;
     text-align: center;
