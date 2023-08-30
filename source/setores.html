@@ -5,48 +5,52 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <link rel="shortcut icon" href="./img/bandeira.png" type="image/x-icon">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/raca.css">
-    <title>Setores Econonômicos</title>
+    <link rel="shortcut icon" href="../assets/img/bandeira.png" type="image/x-icon">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <title>Gráficos dos Setores Econonômicos</title>
 </head>
 <body>
     <header>
         <nav>
-        <a href="index.html">Página Inicial</a>
-         <a href="escolaridade.html">Escolaridade</a>
-         <a href="raça.html">Raça</a>
-         <a href="genero.html">Faixa Etária e Gênero</a>
-         <a href="setores.html">Setores Econonômicos</a>
+        <a href="../index.html">Página Inicial</a>
+         <a href="./escolaridade.html">Escolaridade</a>
+         <a href="./raça.html">Raça</a>
+         <a href="./genero.html">Faixa Etária e Sexo</a>
+         <a href="./setores.html">Setores Econômicos</a>
      </nav>
-     </header>
-
+     </header>s
      <canvas id="graf_setores"></canvas>
-
      <canvas id="myChart"></canvas>
 
      <script>
+        Chart.defaults.borderColor = 'black'
+      Chart.defaults.color = 'white'
+    Chart.defaults.font.size = 15
+      Chart.defaults.font.family = 'Segoe UI'
+      Chart.defaults.font.weight = 'bold'
          var ctx = document.getElementById('myChart').getContext('2d');
          var myChart = new Chart(ctx, {
              type: 'line',
              data: {
-                 labels: ['Tópico 1', 'Tópico 2', 'Tópico 3', 'Tópico 4', 'Tópico 5', 'Tópico 6', 'Tópico 7', 'Tópico 8', 'Tópico 9'],
+                 labels: ['Produção florestal', 'Cultivo de café', 'Cultivo de plantas de lavoura', 'Criação de Bovinos', 'Serviços domésticos', 'Cultivo de cacau', 'Parques temáticos'],
                  datasets: [{
-                     label: 'Dados do Gráfico de Linhas',
-                     data: [10, 20, 15, 30, 25, 40, 12, 28, 17], // Substitua esses valores pelos seus dados
-                     borderColor: 'rgba(75, 192, 192, 1)', // Cor da linha
-                     backgroundColor: 'rgba(75, 192, 192, 0.2)', // Cor da área abaixo da linha
+                     label: 'Diversidade dos setores econômicos',
+                     data: [69, 69, 37, 31, 21, 16, 9, 9], 
+                     borderColor: 'white', 
+                     backgroundColor: 'black', 
                      borderWidth: 2,
-                     pointRadius: 5, // Tamanho dos pontos
-                     pointBackgroundColor: 'rgba(75, 192, 192, 1)', // Cor dos pontos
+                     pointRadius: 5, 
+                     pointBackgroundColor: 'black', 
+                
                  }]
              },
-             options: {
+             options: { 
                  scales: {
                      y: {
                          beginAtZero: true
                      }
                  }
+                 
              }
          });
      </script>

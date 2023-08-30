@@ -40,23 +40,15 @@ nav{
 }
 
 .video{
-  margin-bottom: 5rem;
-  margin-left: 2.81rem;
+  width: 100%;
+  max-height: 400px;
 }
 
 a{
     text-decoration: none;
     list-style: none;
     color: white;
-   
-    
 }
-#grafico_linha {
-    position: absolute;
-    top: 50%;
-    left: 33%;
-    transform: translate(-50%, -50%);
-  }
 
   img{
     max-width: 550px;
@@ -74,6 +66,8 @@ a{
 
   .imgtxt{
     display: flex;
+    height: auto;
+    width: auto;
   }
 
   
@@ -90,14 +84,9 @@ a{
 
   .mapaevideo2{
     display: flex;
+   flex-direction: column !important;
   }
 
-  .textovideo{
-    margin-left: 37px;
-    margin-top: 25px;
-    font-weight: 600;
- 
-  }
 
   
 /*footer*/

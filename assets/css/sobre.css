@@ -4,19 +4,20 @@ h1{
 }
 .txt{
     width: 80vw;
-    height: 80vh;
+    height: auto;
     display: flex;
     flex-direction: column;
 }
 .txt2{
     width: 90vw;
-    height: 97vh;
+    height: auto;
     flex-direction: column;
 }
 .esc{
     display: flex;
     flex-direction: column;
     align-items: center;
+
 }
 .esc p{
     color: #fff;
@@ -25,22 +26,20 @@ h1{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: justify;
 }
-
-
-/* table{
-    width: 65vw;
-    border: 1px solid #fff;
-    margin-bottom: 3rem;
-} */
-
-.brunno{
-    width: 20vw;
-    height: 50vh;
+/* css imagens */
+.foto_brunno, .foto_matheus{
+display:inline-block;
+vertical-align: middle;
 }
 
-.contato{
-    color: white;
-    font-family: Comfortaa;
-    border-bottom: #fff 2px dashed;
-
+.brunno, .matheus{
+    width: 80vw;
+    height: auto;
 }
+.text{
+    margin-left: 2rem;
+    vertical-align: middle;
+}
+
+
+
