@@ -18,12 +18,15 @@
          <a href="./genero.html">Faixa Etária e Sexo</a>
          <a href="./setores.html">Setores Econômicos</a>
      </nav>
-     </header>s
+     </header>
+    
+     <h1>Setores Econômicos - Gráfico</h1>
+
      <canvas id="graf_setores"></canvas>
-     <canvas id="myChart"></canvas>
+     <canvas id="myChart" height="105" width="350"></canvas>
 
      <script>
-        Chart.defaults.borderColor = 'black'
+        Chart.defaults.borderColor = 'whitesmoke'
       Chart.defaults.color = 'white'
     Chart.defaults.font.size = 15
       Chart.defaults.font.family = 'Segoe UI'
@@ -37,10 +40,10 @@
                      label: 'Diversidade dos setores econômicos',
                      data: [69, 69, 37, 31, 21, 16, 9, 9], 
                      borderColor: 'white', 
-                     backgroundColor: 'black', 
+                     backgroundColor: '#fc0fc0', 
                      borderWidth: 2,
                      pointRadius: 5, 
-                     pointBackgroundColor: 'black', 
+                     pointBackgroundColor: '#fc0fc0', 
                 
                  }]
              },
@@ -54,5 +57,9 @@
              }
          });
      </script>
+     <br><br><br> <br> <br> <br>
+     <footer>
+        <p class="foot">Feito pelos estudantes: Brunno Antonio Sousa Dinis Pereira & Matheus Luiz Benatti</p>
+      </footer>
  </body>
  </html>

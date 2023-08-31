@@ -37,9 +37,15 @@ vertical-align: middle;
     height: auto;
 }
 .text{
-    margin-left: 2rem;
-    vertical-align: middle;
+    margin-left: 5rem;
+    align-items: center;
 }
+
+.matheus{
+    margin-left: 30rem;
+}
+
+
 
 
 
